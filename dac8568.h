@@ -110,6 +110,6 @@ typedef enum {
 } INTERNAL_REF_COMM_DATA;
 
 void dac8568_begin(void);
-void dac8568_setChannel(uint8_t chn, uint16_t val);
+void dac8568_setChannel(CHANNEL_SELECT address_field, uint16_t val);
 
 #endif
